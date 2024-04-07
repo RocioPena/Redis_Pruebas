@@ -1,3 +1,4 @@
+# REGRESA SOLO UN DIJITO, OSEA GET
 import web
 import redis
 
