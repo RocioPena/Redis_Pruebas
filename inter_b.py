@@ -41,6 +41,9 @@ class Index:
         # Insertar los números en la lista "numeros" de Redis
         redis_connection.rpush('numeros', numero1, numero2)
 
+        # Establecer el tiempo de vida de la lista en 20 segundos
+        redis_connection.expire('numeros', 20)
+
         # Obtener todos los números de la lista
         numeros = redis_connection.lrange('numeros', 0, -1)
 
@@ -48,8 +51,5 @@ class Index:
         return "Números insertados: {}".format(numeros)
 
 if __name__ == "__main__":
-
-    # Establecer el tiempo de vida de la lista en 20 segundos
-    redis_connection.expire('numeros', 20)
 
     app.run()
