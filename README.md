@@ -10,8 +10,8 @@
 |  |  | Como insertar numeros desde la interfaz y guardarlos en /*Redis*/ si se visualizan desde la terminal y se expiran: <u>interfaz.py</u> |
 | |  |  Insertar los numeros y mostrarlos en la interfaz (No es una interfaz, pero si regresa los numeros) <u>inter_b.py</u>|
 |  |  |  |
-| En python obtener los dos numeros y realizar la suma, y que muestre en la terminal |  |  |
-| Despues de la suma en python que lo muestre en la interfaz |  |  |
+|  |  | En python obtener los dos numeros y realizar la suma, y que muestre en la terminal |
+|  |  | Despues de la suma en python que lo muestre en la interfaz |
 
 
 
