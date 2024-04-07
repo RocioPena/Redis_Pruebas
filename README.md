@@ -5,9 +5,9 @@
 | Tarea                                  | En Proceso | Terminado |
 |----------------------------------------|------------|-----------|
 | |  | Investigar de como insertar numeros en /*Redis*/  |
-| | Obtener numeros para la interfaz desde /*Redis*/ | Solo obtuve lo siguiente: <img src="/workspace/Redis_Pruebas/img/dosindices.png"> |
-|  | |  Insertar numeros desde python (no interfaz), y se utilizo expire para que se borren |
-| Como insertar numeros desde la interfaz y como guardarlos en /*Redis*/ |  |  |
+| | Obtener numeros para la interfaz desde /*Redis*/ | Solo obtuve lo siguiente, desde <u>app1.py</u>: <img src="/workspace/Redis_Pruebas/img/dosindices.png"> |
+|  | |  Insertar numeros desde python (no interfaz), y se utilizo expire para que se borren: <u>expire.py</u> |
+|  |  | Como insertar numeros desde la interfaz y guardarlos en /*Redis*/ si se visualizan desde la terminal y se expiran: <u>interfaz.py</u> |
 | Insertar los numeros y mostrarlos en la interfaz |  |  |
 |  |  |  |
 | En python obtener los dos numeros y realizar la suma, y que muestre en la terminal |  |  |
