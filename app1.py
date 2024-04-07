@@ -1,3 +1,4 @@
+# REGRESA DOS INDICES DE UNA LISTA
 import web
 import redis
 
